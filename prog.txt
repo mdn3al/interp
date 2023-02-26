@@ -1,0 +1,18 @@
+
+eval(
+  [initr(ax,11),initr(by,10)],
+ seq(
+     while(nenegativ(ax),
+      seq(dec(ax),
+       if(nenegativ(by),
+	inc(by),
+	skip
+       ))
+     )
+   ,inc(by)
+ )
+,_).
+
+intreg(ax,X),intreg(by,Y).
+
+
